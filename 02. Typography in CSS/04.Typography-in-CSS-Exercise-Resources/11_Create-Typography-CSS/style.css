@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+th {
+    background-color: #d3d3d3;
+}
+
+th, td {
+    width: 144px;
+    height: 32px;    
+    padding-left: 5px;
+    border: 1px solid;   
+    border-color: #d3d3d3;
+}
+
+tr:nth-of-type(2n - 1) {
+    background-color: #d3d3d366;
+}
+
+blockquote {
+    padding-left: 15px;
+    font-style: italic;
+    border-left: 2px solid rgb(221,221,221);
+}
+
+blockquote p:last-child {
+    text-align: end;
+}
+
+
+
