@@ -1,0 +1,47 @@
+/*! navigation  */
+nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 5em 2.5em 4em;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+.line {
+    height: .2em;
+    width: 2.5em;
+    background-color: #fff;
+    margin-bottom: .6em;
+}
+
+.line-1,
+.line-3 {
+    width: 1.8em;
+    transition: all .4s;
+}
+
+.menu-icon:hover .line {
+    width: 2.5em;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2em;
+    text-transform: uppercase;
+}
+
+.nav-list a {
+    font-size: 1.12em;
+    color: #F7F5F2;
+}
+
+/*! navigation  */

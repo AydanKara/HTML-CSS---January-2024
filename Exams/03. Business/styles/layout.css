@@ -1,0 +1,153 @@
+/* base styles */
+
+.orange {
+    color: #B0825C;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+/* header start */
+
+.header-logo {
+    display: flex;
+    width: 6.8em;
+}
+
+header .hero {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/background.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero .container {
+    width: 100%;
+}
+
+.hero .hero-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    padding: 12em 0 0 0;
+    max-width: 52.9em;
+}
+
+.hero-banner .hero-title {
+    font-size: 4.25em;
+}
+
+.hero-banner .hero-desc {
+    font-size: 1.625em;
+}
+
+/* header end */
+
+.section-desc {
+    font-size: 1.32em;
+    opacity: .6;
+    padding: 1.5em 0 2.8em 0;
+}
+
+/* main section start */
+
+.main-section {
+    padding: 9em 0 8em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.main-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: .5em;
+}
+
+.section-article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.btn-more {
+    font-size: 1.32em;
+    color: #B0825C;
+    padding: .5em 1em;
+    border: 1px solid #B0825C;
+}
+
+/* main section end */
+
+/* sponsors section start */
+
+.sponsors-section {
+    padding-block: 4em;
+}
+
+.sponsors-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+}
+
+.media {
+    width: 184px;
+    height: 184px;
+    background-color: darkgray;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* sponsors section end */
+
+/* footer start */
+
+footer {
+    background-color: #171720;
+
+}
+
+footer .footer-content ul li {
+    padding-bottom: 1em;
+    text-transform: uppercase;
+}
+
+footer h3 {
+    font-size: 1.7em;
+    color: #fff;
+    padding-bottom: 2.5em;
+}
+
+footer a,
+.copyright-text {
+    color: #fff;
+    opacity: .5;
+}
+
+.footer-content {
+    display: flex;
+    padding: 3.75em 0 5em 0;
+}
+
+.footer-content .footer-article {
+    flex: 1 1 100%;
+}
+
+.copyright-section {
+    padding-block: 1em;
+    border-top: 1px solid rgba(255, 255, 255, .2)
+}
+
+/* footer end */
