@@ -105,10 +105,6 @@
 
     /* navigation end */
 
-    header .hero {
-        min-height: 65vh;
-    }
-
     .hero-banner .hero-title {
         font-size: 2.25em;
     }
