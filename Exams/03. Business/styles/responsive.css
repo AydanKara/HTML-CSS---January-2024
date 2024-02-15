@@ -29,10 +29,6 @@
         max-width: 768px;
     }
 
-    header .hero {
-        min-height: 65vh;
-    }
-
     .footer-content {
         gap: 1em;
     }
@@ -41,10 +37,6 @@
 @media (max-width: 768px) {
     .container {
         max-width: 600px;
-    }
-
-    header .hero {
-        min-height: 65vh;
     }
 
     .main-section .container {
