@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.2 "Inter", sans-serif;
+}
+
+body {
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    padding: 1em 2em;
+    color: #000;
+    border-radius: 5px;
+}
+
+.btn.start {
+    background-color: #42AA59;
+    border: 1px solid #000;
+    transition: .3s ease-in-out background-color;
+}
+
+.btn.start:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn.more {
+    background-color: #fff;
+}
+
+.site-article {
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: #85DCFF;
+    padding: 5em 2.14em 4.28em 2.14em;
+}
+
+.site-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.14em;
+}
+
+.site-section .content .title {
+    font-size: 3.14em;
+}
+
+.site-section .content .links {
+    display: flex;
+    gap: 1em;
+}
+
+.site-section .media {
+    max-width: 25.71em;
+    box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.7);
+}

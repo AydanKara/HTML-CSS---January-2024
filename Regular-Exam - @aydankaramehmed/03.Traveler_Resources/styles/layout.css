@@ -1,0 +1,154 @@
+/* base styles */
+
+.text-center {
+    text-align: center;
+}
+
+/* header */
+
+.header-logo {
+    display: flex;
+    width: 6.11em;
+}
+
+header .hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/poster.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title {
+    padding: 4em 0 1.5em 0;
+}
+
+/* section customer */
+
+.customer,
+.blogs {
+    background-color: #F8F0E9;
+}
+
+.customer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    max-width: 62.22em;
+    margin: 0 auto;
+    padding: 2.77em 0 7.22em;
+}
+
+.customer-comment {
+    font-size: 4.2em;
+    font-family: "Cormorant Infant", serif;
+    font-style: italic;
+    font-weight: 600;
+    line-height: .8;
+}
+
+/* section support */
+
+.support,
+.find {
+    background-color: #E14747;
+}
+
+.support {
+    color: #fff;
+    padding: 5em 0 5em 0;
+}
+
+.support-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 2.77em;
+}
+
+/* Section Blogs */
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.44em 0;
+}
+
+.blogs-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    max-width: 32em;
+}
+
+.blogs-article {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.btn {
+    color: #000;
+    background-color: #fff;
+    padding: .6em 1.2em;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.blogs-article>.btn {
+    align-self: flex-start;
+}
+
+/* Section Find */
+
+.find {
+    color: #fff;
+    padding: 8.33em 0 4.44em 0;
+}
+
+.find-desc {
+    padding: 4.44em 0;
+}
+
+.find .btn2 {
+    display: inline-block;
+    color: #000;
+    background-color: #FAD87A;
+    padding: .8em 1.4em;
+    border-radius: 25px;
+}
+
+/* Footer */
+
+.site-footer {
+    background-color: #352B2A;
+    padding: 3em 0 3em 8.33em;
+}
+
+.section-footer {
+    color: #fff;
+}
+
+.footer-logo {
+    width: 4.44em;
+}
+
+.footer-desc {
+    padding: 2.5em 0 1.5em 0;
+}
+
+.footer-copyright {
+    opacity: .3;
+}
